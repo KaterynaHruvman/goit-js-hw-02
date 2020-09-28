@@ -3,10 +3,10 @@ function filterArray(array) {
   const numbers = [];
   for (let i = 0; i < array.length; i += 1) {
     // Write code under this line
-    if (Number.isFinite(array[i] == true)) {
+    if (Number.isFinite(array[i]) == true) {
       let x = 0;
       x = array[i];
-      numbers.push(number);
+      numbers.push(x);
     }
   }
   return numbers;
